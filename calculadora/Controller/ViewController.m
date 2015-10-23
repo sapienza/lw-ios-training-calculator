@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+  @property (nonatomic, weak) IBOutlet UILabel *label;
+  //@property (nonatomic, weak) IBOutlet UIButton *buttonField;
 @end
 
 @implementation ViewController
@@ -22,6 +23,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)updateLabeOnTap:(id)sender{
+    //NSString *button_tittle = [(UIButton *)sender currentTitle];
+    //NSString* tag = [NSString stringWithFormat:@"%i", btn.tag];
+    
+    UIButton *btn = (UIButton *)sender;
+    
+    NSLog(@"User clicked %i", btn.tag);
+    
+    self.label.text = @(btn.tag).stringValue;
 }
 
 @end

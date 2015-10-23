@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B459A681BDA4F6F004AE35F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A671BDA4F6F004AE35F /* main.m */; };
-		3B459A6B1BDA4F6F004AE35F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A6A1BDA4F6F004AE35F /* AppDelegate.m */; };
-		3B459A6E1BDA4F6F004AE35F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A6D1BDA4F6F004AE35F /* ViewController.m */; };
-		3B459A711BDA4F6F004AE35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B459A6F1BDA4F6F004AE35F /* Main.storyboard */; };
-		3B459A731BDA4F6F004AE35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B459A721BDA4F6F004AE35F /* Assets.xcassets */; };
-		3B459A761BDA4F6F004AE35F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B459A741BDA4F6F004AE35F /* LaunchScreen.storyboard */; };
 		3B459A811BDA4F6F004AE35F /* calculadoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A801BDA4F6F004AE35F /* calculadoraTests.m */; };
 		3B459A8C1BDA4F70004AE35F /* calculadoraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A8B1BDA4F70004AE35F /* calculadoraUITests.m */; };
+		3B459AA81BDA4FE1004AE35F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A9B1BDA4FE1004AE35F /* AppDelegate.m */; };
+		3B459AA91BDA4FE1004AE35F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459A9E1BDA4FE1004AE35F /* ViewController.m */; };
+		3B459AAA1BDA4FE1004AE35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B459AA01BDA4FE1004AE35F /* Assets.xcassets */; };
+		3B459AAB1BDA4FE1004AE35F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B459AA11BDA4FE1004AE35F /* LaunchScreen.storyboard */; };
+		3B459AAC1BDA4FE1004AE35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B459AA31BDA4FE1004AE35F /* Main.storyboard */; };
+		3B459AAE1BDA4FE1004AE35F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B459AA71BDA4FE1004AE35F /* main.m */; };
+		3B459AB01BDA5000004AE35F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B459AAF1BDA5000004AE35F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,22 @@
 
 /* Begin PBXFileReference section */
 		3B459A631BDA4F6F004AE35F /* calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B459A671BDA4F6F004AE35F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B459A691BDA4F6F004AE35F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B459A6A1BDA4F6F004AE35F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B459A6C1BDA4F6F004AE35F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B459A6D1BDA4F6F004AE35F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B459A701BDA4F6F004AE35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B459A721BDA4F6F004AE35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B459A751BDA4F6F004AE35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B459A771BDA4F6F004AE35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B459A7C1BDA4F6F004AE35F /* calculadoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculadoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B459A801BDA4F6F004AE35F /* calculadoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculadoraTests.m; sourceTree = "<group>"; };
 		3B459A821BDA4F70004AE35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B459A871BDA4F70004AE35F /* calculadoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculadoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B459A8B1BDA4F70004AE35F /* calculadoraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculadoraUITests.m; sourceTree = "<group>"; };
 		3B459A8D1BDA4F70004AE35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B459A9A1BDA4FE1004AE35F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B459A9B1BDA4FE1004AE35F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B459A9D1BDA4FE1004AE35F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B459A9E1BDA4FE1004AE35F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B459AA01BDA4FE1004AE35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B459AA21BDA4FE1004AE35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B459AA41BDA4FE1004AE35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B459AA61BDA4FE1004AE35F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B459AA71BDA4FE1004AE35F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B459AAF1BDA5000004AE35F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		3B459A5A1BDA4F6F004AE35F = {
 			isa = PBXGroup;
 			children = (
+				3B459AAF1BDA5000004AE35F /* Default-568h@2x.png */,
 				3B459A651BDA4F6F004AE35F /* calculadora */,
 				3B459A7F1BDA4F6F004AE35F /* calculadoraTests */,
 				3B459A8A1BDA4F70004AE35F /* calculadoraUITests */,
@@ -101,14 +104,10 @@
 		3B459A651BDA4F6F004AE35F /* calculadora */ = {
 			isa = PBXGroup;
 			children = (
-				3B459A691BDA4F6F004AE35F /* AppDelegate.h */,
-				3B459A6A1BDA4F6F004AE35F /* AppDelegate.m */,
-				3B459A6C1BDA4F6F004AE35F /* ViewController.h */,
-				3B459A6D1BDA4F6F004AE35F /* ViewController.m */,
-				3B459A6F1BDA4F6F004AE35F /* Main.storyboard */,
-				3B459A721BDA4F6F004AE35F /* Assets.xcassets */,
-				3B459A741BDA4F6F004AE35F /* LaunchScreen.storyboard */,
-				3B459A771BDA4F6F004AE35F /* Info.plist */,
+				3B459A991BDA4FE1004AE35F /* AppDelegate */,
+				3B459A9C1BDA4FE1004AE35F /* Controller */,
+				3B459A9F1BDA4FE1004AE35F /* Resources */,
+				3B459AA51BDA4FE1004AE35F /* SupportingFiles */,
 				3B459A661BDA4F6F004AE35F /* Supporting Files */,
 			);
 			path = calculadora;
@@ -117,7 +116,6 @@
 		3B459A661BDA4F6F004AE35F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B459A671BDA4F6F004AE35F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +136,43 @@
 				3B459A8D1BDA4F70004AE35F /* Info.plist */,
 			);
 			path = calculadoraUITests;
+			sourceTree = "<group>";
+		};
+		3B459A991BDA4FE1004AE35F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B459A9A1BDA4FE1004AE35F /* AppDelegate.h */,
+				3B459A9B1BDA4FE1004AE35F /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B459A9C1BDA4FE1004AE35F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B459A9D1BDA4FE1004AE35F /* ViewController.h */,
+				3B459A9E1BDA4FE1004AE35F /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B459A9F1BDA4FE1004AE35F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B459AA01BDA4FE1004AE35F /* Assets.xcassets */,
+				3B459AA11BDA4FE1004AE35F /* LaunchScreen.storyboard */,
+				3B459AA31BDA4FE1004AE35F /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B459AA51BDA4FE1004AE35F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3B459AA61BDA4FE1004AE35F /* Info.plist */,
+				3B459AA71BDA4FE1004AE35F /* main.m */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B459A761BDA4F6F004AE35F /* LaunchScreen.storyboard in Resources */,
-				3B459A731BDA4F6F004AE35F /* Assets.xcassets in Resources */,
-				3B459A711BDA4F6F004AE35F /* Main.storyboard in Resources */,
+				3B459AAA1BDA4FE1004AE35F /* Assets.xcassets in Resources */,
+				3B459AB01BDA5000004AE35F /* Default-568h@2x.png in Resources */,
+				3B459AAC1BDA4FE1004AE35F /* Main.storyboard in Resources */,
+				3B459AAB1BDA4FE1004AE35F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B459A6E1BDA4F6F004AE35F /* ViewController.m in Sources */,
-				3B459A6B1BDA4F6F004AE35F /* AppDelegate.m in Sources */,
-				3B459A681BDA4F6F004AE35F /* main.m in Sources */,
+				3B459AA81BDA4FE1004AE35F /* AppDelegate.m in Sources */,
+				3B459AAE1BDA4FE1004AE35F /* main.m in Sources */,
+				3B459AA91BDA4FE1004AE35F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +344,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B459A6F1BDA4F6F004AE35F /* Main.storyboard */ = {
+		3B459AA11BDA4FE1004AE35F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B459A701BDA4F6F004AE35F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3B459A741BDA4F6F004AE35F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B459A751BDA4F6F004AE35F /* Base */,
+				3B459AA21BDA4FE1004AE35F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B459AA31BDA4FE1004AE35F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B459AA41BDA4FE1004AE35F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = calculadora/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/calculadora/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.locaweb.treinamento.calculadora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = calculadora/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/calculadora/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.locaweb.treinamento.calculadora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
